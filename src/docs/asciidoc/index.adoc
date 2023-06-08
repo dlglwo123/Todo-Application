@@ -1,0 +1,94 @@
+= TODO APPLICATION
+:sectnums:
+:toc: left
+:toclevels: 4
+:toc-title: Table of Contents
+:source-highlighter: prettify
+
+lee hee jae <dlglwo123@naver.com>
+
+v1.0.0, 2022.04.08
+
+***
+
+API 문서 개요
+
+
+***
+== TODO Controller
+=== TODO 등록
+.curl-request
+include::{snippets}/post-Todo/curl-request.adoc[]
+
+.http-request
+include::{snippets}/post-Todo/http-request.adoc[]
+
+.request-fields
+include::{snippets}/post-Todo/request-fields.adoc[]
+
+.http-response
+include::{snippets}/post-Todo/http-response.adoc[]
+
+=== TODO 정보 수정
+.curl-request
+include::{snippets}/patch-Todo/curl-request.adoc[]
+
+.http-request
+include::{snippets}/patch-Todo/http-request.adoc[]
+
+.path-parameters
+include::{snippets}/patch-Todo/path-parameters.adoc[]
+
+.request-fields
+include::{snippets}/patch-Todo/request-fields.adoc[]
+
+.http-response
+include::{snippets}/patch-Todo/http-response.adoc[]
+
+.response-fields
+include::{snippets}/patch-Todo/response-fields.adoc[]
+
+=== TODO 정보 조회
+.curl-request
+include::{snippets}/get-Todo/curl-request.adoc[]
+
+.http-request
+include::{snippets}/get-Todo/http-request.adoc[]
+
+.path-parameters
+include::{snippets}/get-Todo/path-parameters.adoc[]
+
+.http-response
+include::{snippets}/get-Todo/http-response.adoc[]
+
+.response-fields
+include::{snippets}/gets-Todo/response-fields.adoc[]
+
+=== TODO List 정보 조회
+.curl-request
+include::{snippets}/gets-Todo/curl-request.adoc[]
+
+.http-request
+include::{snippets}/gets-Todo/http-request.adoc[]
+
+.path-parameters
+include::{snippets}/gets-Todo/request-parameters.adoc[]
+
+.http-response
+include::{snippets}/gets-Todo/http-response.adoc[]
+
+.response-fields
+include::{snippets}/gets-Todo/response-fields.adoc[]
+
+=== TODO 삭제
+.curl-request
+include::{snippets}/delete-Todo/curl-request.adoc[]
+
+.http-request
+include::{snippets}/delete-Todo/http-request.adoc[]
+
+.path-parameters
+include::{snippets}/delete-Todo/path-parameters.adoc[]
+
+.http-response
+include::{snippets}/delete-Todo/http-response.adoc[]
